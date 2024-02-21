@@ -1,4 +1,4 @@
-# monte-carlo-retirement-calculator
+# Monte Carlo Retirement Calculator
 This is a retirement calculator built in python under the guidance of my mentor Mr. Ron Choi.
 
 I took historical data from the S&P, 10-year Treasury Yield, and the Consumer Price Index and generated a correlation matrix. Then, I used the numpy library to create a Cholesky decomposition of this matrix. Finally, I again used numpy to generate random decimals and create an array of correlated random sequences.
